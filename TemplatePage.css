@@ -1,0 +1,205 @@
+.phead {
+font-family: 'Raleway', sans-serif;
+}
+
+.pfont {
+font-family: 'Ubuntu', sans-serif;
+}
+
+#Yourfoot {
+   /* background-image: url(images/index/footer.jpg);*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-origin: border-box;
+  position:relative;
+  opacity:0.90;
+  background-position:top;
+  background-attachment:fixed;
+}
+
+.tabs .indicator{
+    background-color: #277ba7;
+}
+
+#dropdown1, #dropdown2, #dropdown3, #dropdown4, #dropdown5, #dropdown0 {
+    margin-top: 68px;
+    text-align: center;
+    
+}
+
+.pabtn {
+    height: auto;
+    width: auto;
+    
+}
+
+.tc {
+    text-align: center;
+}
+/* give this id to the li navigation to colour your active page in the navigation*/
+#Youractive {
+    background: #63deec;
+    color: white;
+}
+
+.mt5 {
+    margin-top: 5px;
+}
+
+.mt10 {
+    margin-top: 10px;
+}
+
+.ml5 {
+    margin-left: 5px;
+}
+
+.pt10 {
+    padding-top: 10px;
+}
+.plr {
+    padding: 0px 35px 0px 35px;
+}
+.pall {
+    padding: 25px 50px 25px 50px;
+}
+.indicators: hover {
+  margin:100px;
+  display: block;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: #63deec;
+  cursor: pointer;
+  box-shadow: 0 0 0 rgba(39,123,167, 0.9);
+  animation: pulse 2s infinite;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #000;
+}
+
+.parallax-container {
+  min-height: 200px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+.page-footer .footer-copyright {
+    background-color:#1b4b64 ;
+}
+
+.waves-effect .waves-you .waves-ripple {
+      background-color: #63deec;
+    }
+
+.btn, .btn-large {
+    background-color:#757575;
+}
+
+.btn:hover, .btn-large:hover {
+    background-color: #616161 ;
+}
+.btn:focus, .btn-large:focus, .btn-floating:focus {
+    background-color: #424242;
+}
+
+#spara {
+    height: 200px;
+}
+
+.indexcard {
+    max-height: 640px;
+    max-width: 640px;
+    overflow: hidden;
+}
+
+.h250{
+
+    max-height: 250px;
+    overflow-x: hidden;
+
+}
+
+.w250{
+
+    max-width: 250px;
+    overflow-x: hidden;
+}
+
+.h380 {
+    max-height: 380px;
+    overflow-x: hidden;
+    max-width: 100%;
+}
+
+#h450 {
+    height: 450px;
+}
+
+.tabs .indicator {
+    background-color: #277ba7;
+}
+
+
+
+.tabs .tab a:hover, .tabs .tab a.active {
+    background-color: transparent;
+    color: #63deec;}
+    
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating) {
+    text-transform:none;
+    color: #63deec;
+}
+
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating):hover {
+    color: #63deec;
+}
+
+.primecolour {
+    background: #277ba7;
+}
+
+.primecolourtext {
+    color:  #277ba7;
+}
+
+.highcolourtext {
+    color:  #63deec;
+}
+
